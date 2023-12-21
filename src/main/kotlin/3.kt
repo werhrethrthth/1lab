@@ -1,9 +1,11 @@
-fun main(args: Array<String>) {
-println("Введите сумму подписки ")
-   val a = readln().toInt()
+package org.example
+
+fun main() {
+    println("Введите сумму подписки ")
+    val a = readln().toInt()
     if (a<=1001)
     {
-       println("нет скидки")
+        println("нет скидки")
     }
     if (a>1000 && a<=10000 )
     {
